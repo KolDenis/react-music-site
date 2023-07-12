@@ -1,0 +1,18 @@
+.CategoryList{
+    padding: 10px;
+    display: grid;
+    grid-auto-columns: min-content;
+    grid-auto-rows: min-content;
+    gap: 10px;
+    text-align: center;
+}
+
+.categoryItem{
+    padding: 5px;
+    padding-inline: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    background-color: #86cbf6;
+    border-radius: 13px;
+}

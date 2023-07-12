@@ -1,0 +1,1 @@
+export const serverName: string = 'http://localhost:5000/';

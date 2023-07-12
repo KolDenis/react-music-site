@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background-color: rgb(44, 44, 44);
+}
+
+#root{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

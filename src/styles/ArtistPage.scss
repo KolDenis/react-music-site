@@ -1,0 +1,34 @@
+.ArtistPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.artistInfo{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.artistNumberTracks{
+    margin: 10px;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.ArtistImage{
+    margin: 30px;
+    width: 150px;
+}
+
+.artistInfoChild{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.artistName{
+    margin-top: 0px;
+}

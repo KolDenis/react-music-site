@@ -1,0 +1,43 @@
+.GenreList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.genresListTitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.genresTable{
+    margin: 10px;
+    margin-top: 0px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genreItem{
+    background-color: rgb(217, 217, 217);
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.genreItem:disabled{
+    color: black;
+    border-bottom: 5px solid orange;
+}
+
+.genreItem:active{
+    background-color: rgb(194, 194, 194);
+}
